@@ -9,7 +9,8 @@ var oscar = angular.module('oscar', [
         oscar.config(function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
-              templateUrl: 'index.html'
+              templateUrl: 'index.html',
+              controller: 'homeController'
             });
 
         $locationProvider.html5Mode(true);

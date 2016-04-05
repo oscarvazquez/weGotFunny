@@ -1,3 +1,9 @@
-<h1>Content</h1>
-</h3>Home Page</h3>
-<h3>Awesome new Feature</h3>
+<style>
+	img{
+		height: 280px;
+		width: 280px;
+		display: inline-block;
+	}
+
+</style>
+<img src = "{{i.link}}" ng-repeat = "i in images.items" ng-click = "getImage(i.id)">
